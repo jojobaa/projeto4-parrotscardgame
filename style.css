@@ -11,3 +11,26 @@ header{
     font-weight: 700;
     margin-top: 40px;
 }
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-facedown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 146px;
+    background-color: #A7E9AF;
+    border: 1px solid #99CEA8;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.card-facedown img{
+    width: 100px;
+    height: 100px;
+}
