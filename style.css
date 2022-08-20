@@ -1,8 +1,9 @@
-body{
+body {
     background-color: #EEF9BF;
     font-family: 'Roboto', sans-serif;
 }
-header{
+
+header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,13 +12,15 @@ header{
     font-weight: 700;
     margin-top: 40px;
 }
-.cards{
+
+.cards {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.card-facedown{
+
+.card-facedown {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,10 +30,20 @@ header{
     border: 1px solid #99CEA8;
     border-radius: 5px;
     margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
-    
 }
-.card-facedown img{
+
+.card-facedown img {
     width: 100px;
     height: 100px;
 }
+
+.transicao {
+    transform: rotatey(180deg);
+    transition: all 1s linear;
+}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 768px) {}
