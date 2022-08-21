@@ -32,18 +32,34 @@ header {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
+    position: relative;
+    transition: transform 0.5s;  
 }
 
-.card-facedown img {
+.pngCard img{
     width: 100px;
     height: 100px;
 }
-
+.gifCard img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top:25px;
+    left:18px;
+}
+.gifNone{
+    opacity: 0;
+}
 .transicao {
     transform: rotatey(180deg);
-    transition: all 1s linear;
 }
-
+.transicao .pngCard {
+    opacity: 0;
+}
+.transicao .gifCard {
+    opacity: 1;
+}
+ 
 @media (max-width: 414px) {}
 
 @media (max-width: 768px) {}
